@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background: url(child.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:montserrat;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+   background-color: rgba(0, 0, 0, 0.464);
+}
+
+.pre-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    background-color: black;
+    padding: 5px 0;
+}
+
+
+.pre-left   {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pre{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.pre h5{
+    font-weight: 500;
+}
+
+.pre i{
+    color: tomato;
+    font-size: 18px;
+}
+
+.pre-right{
+    display: flex;
+    gap: 10px;
+}
+
+.pre-right i{
+    font-size: 12px;
+    background-color: grey;
+    padding: 8px 8px;
+    border-radius: 120px;
+}
+
+#facebook{
+    background-color: rgb(244, 151, 166);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.813);
+    position: relative;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left i{
+    font-size: 50px;
+    color: rgb(205, 31, 60);
+}
+
+.nav-logo h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.nav-logo p{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background-color:rgb(227, 68, 94) ;
+    bottom: 0;
+    width: 45px;
+    height: 3px;
+}
+
+#home{
+    color: white;
+}
+
+.nav-links a{
+    color: rgb(200, 197, 197);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    border-right: 2px solid grey;
+    padding: 0 10px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-button button{
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(246, 100, 125);
+    border: none;
+    font-weight: 600;
+}
+
+main{
+    margin: 2vw 8vw;
+    font-family: montserrat;
+}
+
+.main-content{
+    background-color: rgba(0, 0, 0, 0.729);
+    padding: 15px 15px;
+    width: 40%;
+}
+
+.head{
+    position: relative;
+}
+
+.head h2{
+    font-size: 3vw;
+    font-weight: 900;
+    line-height: 3.3vw;
+    padding: 8px 0;
+    color: white;
+}
+
+.head h2 span{
+    color: rgb(238, 65, 94);
+}
+
+.head h2::after{
+    content: "";
+    background-color: rgb(227, 105, 125);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    height: 3px;
+}
+
+.para p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    line-height: 20px;
+    margin-top: 12px;
+    font-family: Josefin sans;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.button{
+    padding: 12px 20px;
+    font-size: 11px;
+    color: white;
+    font-weight: 700;
+    font-family: montserrat;
+}
+
+.pink{
+    background-color: rgb(227, 105, 125);
+}
+
+.white{
+    background-color: white;
+    color: rgb(250, 76, 105);
+}
+
+.main-box{
+    /* width: 90%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    /* padding: 10px 10px; */
+    gap: 10px;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: rgb(242, 94, 119);
+}
+
+.box1 i{
+    font-size: 25px;
+    background-color: white;
+    padding: 12px 12px;
+    border-radius: 30px;
+    color: rgb(223, 73, 98);
+}
+
+.box1-para h4{
+    font-size: 13px;
+    color: white;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.box1-para h4::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    height: 2px;
+    width: 15%;
+}
+.box1-para p{
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.mid-box{
+    background-color: rgba(139, 21, 21, 0.627);
+}
+
+.payment{
+    /* width: 70%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.524);
+}
+
+.payment label{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: montserrat;
+    color: white;
+    text-decoration: underline;
+}
+
+.payment span{
+    font-weight: 600;
+    color: white;
+    padding: 6px 5px;
+    font-size: 12px;
+    border: 1px solid white;
+}
+
+.payment select{
+    width: 15%;
+    height: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+    font-size: 12px;
+}

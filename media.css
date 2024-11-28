@@ -1,0 +1,84 @@
+@media (max-width:990px) {
+    .nav-links{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+        padding: 4px 10px;
+    }
+
+    .pre-nav{
+        /* justify-content: space-between; */
+        /* gap: 50px; */
+        padding: 2px 5px;
+    }
+
+    .pre-right{
+        display: none;
+    }
+
+    .pre-left{
+        flex-direction: column;
+        gap: 5px;   
+    }
+
+}
+
+
+@media (max-width:590px) {
+    .main-content{
+        width: 100%;
+        /* text-align: center; */
+        border-radius: 16px;
+    }
+
+    .buttons .button{
+        font-size: 10px;
+        padding: 8px 8px;
+    }
+
+
+    main{
+        margin-top: 5vw;
+    }
+
+    .main-box{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .container{
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .box1{
+        border-radius: 15px;
+    }
+
+    .nav-left i{
+        font-size: 35px;
+    }
+
+    .nav-logo h4{
+        font-size: 19px;
+    }
+
+    .nav-logo p{
+        font-size: 11px;
+    }
+
+    .nav-button button{
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .payment label{
+        font-size: 20px;
+    }
+
+    .payment select{
+        width: 30%;
+        font-size: 12px;
+    }
+}
